@@ -2,7 +2,7 @@
 
 body {
     font-family: arial, sans-serif;
-    font-size: 16px;
+    font-size: 13px;
     display: block;
     height: 100%;
     width: 100%;
@@ -71,4 +71,33 @@ body {
     border: 1px solid #c6c6c6;
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
     color: #222;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    opacity: 0.75;
+    text-align: center;
+    padding: 14px 12px;
+    text-decoration: none;
+}
+
+.head-right {
+    float: right;
+}
+
+/* Underline the link on hover */
+li a:hover {
+    text-decoration: underline;
 }
