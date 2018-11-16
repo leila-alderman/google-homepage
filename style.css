@@ -13,7 +13,7 @@ body {
 .logo {
     width: 272px;
     margin: 0 auto;
-    padding-top: 200px;
+    padding-top: 120px;
     display: block;
 }
 
@@ -74,10 +74,20 @@ body {
 }
 
 ul {
+    display: block;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
+    width: 100%;
+}
+
+.footer {
+    border-top: 1px solid #e4e4e4;
+    background-color: #f2f2f2;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    display: block;
 }
 
 li {
@@ -89,11 +99,11 @@ li a {
     color: black;
     opacity: 0.75;
     text-align: center;
-    padding: 14px 12px;
+    padding: 0px 12px;
     text-decoration: none;
 }
 
-.head-right {
+.li-right {
     float: right;
 }
 
